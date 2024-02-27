@@ -21,7 +21,7 @@ const vehiculoSeleccionado = [];
 //funcion que va a mostrar el menu
 
 function seleccionAuto() {
-  let nombre = prompt("ingrese su nombre y apellido").toUpperCase();
+  let nombre = prompt(" Bienvenidos a DRIVER MAX ingrese su nombre y apellido").toUpperCase();
   let listadoAutos = `Bienvenido ${nombre}  al listado de autos de Driver Max \n`;
   concesionaria.forEach((concesionaria, index) => {
     listadoAutos =
